@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="myscript.js"></script>
+</head>
+
+<body>
+  <p id="clock">Score: 0</p>
+  <div id="background" onmouseover="startAnimation()" onmouseout="stopAnimation()">
+    <div id="road">    
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+    </div>
+    <div id="car" onmousemove="moveCar(event)" onmouseout="centerCar()"></div>
+    <div class="obstacle" id="obstacle1"></div>
+  </div>  
+  <p id="help">Move cursor over the road to start the game and off the road to pause.
+  <br>Steer car by moving cursor over it. Collect blue balls to score points.</p>
+</body>
+<footer>
+</footer>
+</html> 
