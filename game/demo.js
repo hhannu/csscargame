@@ -1,4 +1,3 @@
-
 var timer;
 var timer2;
 var score = 0;
