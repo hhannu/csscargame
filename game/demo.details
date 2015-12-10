@@ -1,5 +1,3 @@
  name: CSS Cargame
  description: A simple driving game created with CSS animations. 
- resources:
-   - https://github.com/hhannu/csscargame
  normalize_css: no
